@@ -1,0 +1,19 @@
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.card {
+  background-color: aqua;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
